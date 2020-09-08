@@ -19,3 +19,12 @@ Familiar with
 * Node.JS
 * GULP
 * PUG/SASS
+
+## Experience
+No development or product experience.
+
+## Education
+2017 – Front-End Basic course.
+
+## English
+Upper-intermediate level.
