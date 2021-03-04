@@ -30,22 +30,23 @@ header div {
   border: 1px solid lightgrey;
 }
 
-h1 {
+h1,
+h2 {
   font-weight: 600;
-  font-size: 32px;
-  line-height: 40px;
-  margin-top: 120px;
   padding-bottom: 0.3em;
   border-bottom: 1px solid #eaecef;
 }
 
+h1 {
+  font-size: 32px;
+  line-height: 40px;
+  margin-top: 120px;
+}
+
 h2 {
-  font-weight: 600;
   font-size: 24px;
   line-height: 30px;
-  padding-bottom: 0.3em;
   margin: 24px 0 16px 0;
-  border-bottom: 1px solid #eaecef;
 }
 
 h2 a {
