@@ -11,11 +11,8 @@ body {
   font-style: normal;
   color: #24292e;
   padding: 15px;
-}
-
-.wraper {
   max-width: 1000px;
-  min-width: 650px;
+  min-width: 560px;
   margin: 0 auto;
 }
 
@@ -25,8 +22,13 @@ header div {
 
 .avatar {
   position: absolute;
-  bottom: 20px;
-  right: 20px;
+  top: 0;
+  right: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.avatar img {
   border: 1px solid lightgrey;
 }
 
@@ -34,13 +36,14 @@ h1,
 h2 {
   font-weight: 600;
   padding-bottom: 0.3em;
+  margin: 0;
   border-bottom: 1px solid #eaecef;
 }
 
 h1 {
   font-size: 32px;
   line-height: 40px;
-  margin-top: 120px;
+  padding-top: 125px;
 }
 
 h2 {
@@ -53,6 +56,10 @@ h2 a {
   display: none;
 }
 
+h2:hover a {
+  display: inline-block;
+}
+
 h2 img {
   padding-bottom: 2px;
 }
@@ -61,20 +68,38 @@ h2 img:hover {
   border-bottom: 1px solid #0366d6;
 }
 
-h2:hover a {
-  display: inline-block;
-}
-
 p {
   margin: 0 0 16px 0;
 }
 
 ul {
-  padding-left: 32px;
   margin: 0 0 16px 0;
 }
 
 li {
-  margin: 0 0 5px 0;
+  margin: 0 5px 5px 0;
+}
+
+li a {
+  margin: 0 0 0 5px;
+}
+
+.contact li {
+  display: inline;
+  list-style-type: none;
+}
+
+.skills ul {
+  padding-left: 32px;
+}
+
+footer {
+  margin: 42px 0 16px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=main.css.map */
